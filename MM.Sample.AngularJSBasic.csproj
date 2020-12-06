@@ -112,6 +112,7 @@
     <Content Include="ng-demo-05-final\index.html" />
     <Content Include="ng-demo-05-final\my-customer-badge.html" />
     <Content Include="ng-demo-05\index.html" />
+    <Content Include="ng-demo-05\my-customer-badge.html" />
     <Content Include="ng-demo-06-final\404.html" />
     <Content Include="ng-demo-06-final\app\app.js" />
     <Content Include="ng-demo-06-final\app\areas\home\controllers\HomeCtrl.js" />
