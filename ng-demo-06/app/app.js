@@ -16,15 +16,15 @@
             });
     });
 
-    //app.controller('AppCtrl', function AppCtrl($scope, $http) {
-    //    $scope.title = 'Demo 06';
-    //    $scope.shoppingCartTotalItems = 5;
-    //    $scope.shoppingCartItems = [
-    //        { title: 'Mouse' },
-    //        { title: 'Teclado' },
-    //        { title: 'Mousepad' },
-    //        { title: 'Monitor' },
-    //        { title: 'Celular' },
-    //    ]
-    //});
+    app.controller('AppCtrl', function AppCtrl($scope, $http) {
+        $scope.title = 'Demo 06';
+        $scope.shoppingCartTotalItems = 5;
+        $scope.shoppingCartItems = [
+            { title: 'Mouse' },
+            { title: 'Teclado' },
+            { title: 'Mousepad' },
+            { title: 'Monitor' },
+            { title: 'Celular' },
+        ]
+    });
 })();

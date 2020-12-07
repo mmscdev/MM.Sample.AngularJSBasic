@@ -13,6 +13,8 @@
             <p>
                 <span>{{ token }}</span>
             </p>
+            <hr />
+            <button class="btn btn-info" ng-click="get()">Obter</button>
         </div>
     </div>
 
@@ -27,11 +29,28 @@
             $scope.autenticar = function () {
                 DoAuth();
             }
+            $scope.get = function () {
+                Get();
+            }
 
             var authurl = 'http://customer-service.azurewebsites.net/api/security/token';
 
             function DoAuth() {
-                
+                var data = "grant_type=password&username=andrebaltieri&password=andrebaltieri";
+
+                $http.post(authurl, data, { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } })
+                    .success(function (result) {
+                        console.log(result);
+                        $scope.token = result.access_token;
+                    });
+            }
+
+            function Get() {
+                var serviceUrl = 'http://customer-service.azurewebsites.net/api/customers';
+                $http.get(serviceUrl, { headers: { 'Authorization': 'Bearer ' + $scope.token} })
+                    .success(function (result, status, headers, config) {
+                        console.log(result);
+                    });
             }
 
         }]);
