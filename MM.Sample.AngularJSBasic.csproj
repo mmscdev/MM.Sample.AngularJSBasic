@@ -120,6 +120,10 @@
     <Content Include="ng-demo-06-final\app\repositories\CustomerRepository.js" />
     <Content Include="ng-demo-06-final\index.html" />
     <Content Include="ng-demo-06\404.html" />
+    <Content Include="ng-demo-06\app\app.js" />
+    <Content Include="ng-demo-06\app\areas\home\controllers\HomeCtrl.js" />
+    <Content Include="ng-demo-06\app\areas\home\vierws\index.html" />
+    <Content Include="ng-demo-06\app\repositories\CustomerRepository.js" />
     <Content Include="ng-demo-06\index.html" />
     <Content Include="ng-demo-07-final\index.html" />
     <Content Include="ng-demo-07\index.html" />
@@ -144,6 +148,7 @@
     <Content Include="ng-demo-06-final\app\data\customers.json" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="obj\Debug\MM.Sample.AngularJSBasic.csprojAssemblyReference.cache" />
+    <Content Include="ng-demo-06\app\data\customers.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
