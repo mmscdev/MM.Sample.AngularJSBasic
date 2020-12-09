@@ -17,6 +17,10 @@
                 controller: 'DeleteCustomerCtrl',
                 templateUrl: 'app/areas/customers/views/delete.html'
             })
+            .when('/customer/new/', {
+                controller: 'NewCustomerCtrl',
+                templateUrl: 'app/areas/customers/views/new.html'
+            })
             .when('/login', {
                 controller: 'LoginCtrl',
                 templateUrl: 'app/areas/login/views/login.html'

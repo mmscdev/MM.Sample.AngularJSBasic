@@ -132,8 +132,10 @@
     <Content Include="ng-demo9-final\404.html" />
     <Content Include="ng-demo9-final\app\app.js" />
     <Content Include="ng-demo9-final\app\areas\customers\controllers\DeleteCustomerCtrl.js" />
+    <Content Include="ng-demo9-final\app\areas\customers\controllers\NewCustomerCtrl.js" />
     <Content Include="ng-demo9-final\app\areas\customers\controllers\EditCustomerCtrl.js" />
     <Content Include="ng-demo9-final\app\areas\customers\views\delete.html" />
+    <Content Include="ng-demo9-final\app\areas\customers\views\new.html" />
     <Content Include="ng-demo9-final\app\areas\customers\views\edit.html" />
     <Content Include="ng-demo9-final\app\areas\home\controllers\HomeCtrl.js" />
     <Content Include="ng-demo9-final\app\areas\home\views\index.html" />
