@@ -33,7 +33,7 @@
                 Get();
             }
 
-            var authurl = 'http://customer-service.azurewebsites.net/api/security/token';
+            var authurl = 'https://run.mocky.io/v3/a6c53021-28fd-47f8-9d5f-b5796e4d862a';
 
             function DoAuth() {
                 var data = "grant_type=password&username=andrebaltieri&password=andrebaltieri";
@@ -46,7 +46,7 @@
             }
 
             function Get() {
-                var serviceUrl = 'http://customer-service.azurewebsites.net/api/customers';
+                var serviceUrl = 'https://run.mocky.io/v3/5471b13f-4c34-4d91-a950-858380838150';
                 $http.get(serviceUrl, { headers: { 'Authorization': 'Bearer ' + $scope.token} })
                     .success(function (result, status, headers, config) {
                         console.log(result);
