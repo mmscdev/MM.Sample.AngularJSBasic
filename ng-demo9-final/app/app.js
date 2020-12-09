@@ -13,6 +13,10 @@
                 controller: 'EditCustomerCtrl',
                 templateUrl: 'app/areas/customers/views/edit.html'
             })
+            .when('/customer/delete/:id', {
+                controller: 'DeleteCustomerCtrl',
+                templateUrl: 'app/areas/customers/views/delete.html'
+            })
             .when('/login', {
                 controller: 'LoginCtrl',
                 templateUrl: 'app/areas/login/views/login.html'

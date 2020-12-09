@@ -1,9 +1,12 @@
-﻿<a href="#/customer/edit/{{ customer.email }}">
-    <div class="panel panel-info">
-        <div class="panel-heading"><h1>{{ customer.firstName }} <small>{{ customer.lastName }}</small></h1></div>
-        
+﻿    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h1>{{ customer.firstName }} <small>{{ customer.lastName }}</small></h1>
+        </div>   
         <div class="panel-body">
-            {{ customer.email }}
+            <small><em>{{ customer.email.substring(0,35) }}</em></small>
+            <div class="btn-group pull-right">
+                <a href="#/customer/edit/{{customer.email}}" class="btn btn-default btn-sm"><i class="fa fa-edit"></i></a>
+                <a class="btn btn-danger btn-sm"><i class="fa fa-remove"></i></a>
+            </div>
         </div>
     </div>
-</a>
