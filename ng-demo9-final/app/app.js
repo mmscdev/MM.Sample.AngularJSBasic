@@ -9,6 +9,10 @@
                 controller: 'HomeCtrl',
                 templateUrl: 'app/areas/home/views/index.html'
             })
+            .when('/customer/edit/:id', {
+                controller: 'EditCustomerCtrl',
+                templateUrl: 'app/areas/customers/views/edit.html'
+            })
             .when('/login', {
                 controller: 'LoginCtrl',
                 templateUrl: 'app/areas/login/views/login.html'
